@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat54>
+    <Version value="7314721" />
+    <ContainerPaths>
+        <Item>tofu-farts\customfarts</Item>
+    </ContainerPaths>
+    <Items>
+        <Item type="SimpleSound">
+            <Name>fart01</Name>
+            <Header>
+                <Flags value="0x00008004" />
+                <Volume value="400" />
+                <Category>scripted</Category>
+            </Header>
+            <ContainerName>tofu-farts/customfarts</ContainerName>
+            <FileName>fart01</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>fart02</Name>
+            <Header>
+                <Flags value="0x00008004" />
+                <Volume value="400" />
+                <Category>scripted</Category>
+            </Header>
+            <ContainerName>tofu-farts/customfarts</ContainerName>
+            <FileName>fart02</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>fart03</Name>
+            <Header>
+                <Flags value="0x00008004" />
+                <Volume value="400" />
+                <Category>scripted</Category>
+            </Header>
+            <ContainerName>tofu-farts/customfarts</ContainerName>
+            <FileName>fart03</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SimpleSound">
+            <Name>fart04</Name>
+            <Header>
+                <Flags value="0x00008004" />
+                <Volume value="400" />
+                <Category>scripted</Category>
+            </Header>
+            <ContainerName>tofu-farts/customfarts</ContainerName>
+            <FileName>fart04</FileName>
+            <WaveSlotNum value="0" />
+        </Item>
+        <Item type="SoundSet">
+            <Name>tofu-farts</Name>
+            <Header>
+                <Flags value="0xAAAAAAAA" />
+            </Header>
+            <SoundSets>
+                <Item>
+                    <ScriptName>fart01</ScriptName>
+                    <ChildSound>fart01</ChildSound>
+                </Item>
+                <Item>
+                    <ScriptName>fart02</ScriptName>
+                    <ChildSound>fart02</ChildSound>
+                </Item>
+                <Item>
+                    <ScriptName>fart03</ScriptName>
+                    <ChildSound>fart03</ChildSound>
+                </Item>
+                <Item>
+                    <ScriptName>fart04</ScriptName>
+                    <ChildSound>fart04</ChildSound>
+                </Item>
+            </SoundSets>
+        </Item>
+    </Items>
+</Dat54>
