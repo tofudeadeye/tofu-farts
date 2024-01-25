@@ -4,6 +4,8 @@ Simple meme resource which enables networked fart sounds to be emitted from a pl
 
 ### Usage
 
+Included is a simple `playerfart` command that you can use to test & explore the functionality.
+
 This resource can easily be invoked by triggering a server side event on the target player. The event is configured to play a "networked" sound event, so all players will hear it.
 
 ```
