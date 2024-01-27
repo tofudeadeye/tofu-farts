@@ -25,7 +25,7 @@ RegisterNetEvent('tofu-farts:client:doFart', function(fartSound)
     PlaySoundFromEntity(
         soundID,
         fartSound,
-        player,
+        PlayerPedId(),
         'tofu-farts',
         true
     )
