@@ -9,7 +9,7 @@ Included is a simple `playerfart` command that you can use to test & explore the
 This resource can easily be invoked by triggering a server side event on the target player. The event is configured to play a "networked" sound event, so all players will hear it.
 
 ```
-TriggerEvent('tofu-farts:client:doFart', <player id>, 'fart01')
+TriggerServerEvent('tofu-farts:server:doFart', <player id>, 'fart01')
 ```
 
 The only argument the event requires is the sound identifier which should be played. This resources comes with four (4) by default, all of which are DMCA and royalty free.
